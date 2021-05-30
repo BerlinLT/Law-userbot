@@ -49,5 +49,5 @@ CMD_HELP.update({
 \n\n⚡𝘾𝙈𝘿⚡`.L`\
 \nPenjelasan: Untuk Menjawab Salam ke semua orang.\
     "⚡𝘾𝙈𝘿⚡`.S`
-\npenjelasan: Untuk Baperin orang.\"
+    \npenjelasan: Untuk Baperin orang.\"
 })
