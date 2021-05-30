@@ -22,10 +22,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Maaf ✘ 𝗞𝗶𝗻𝗴 {ALIVE_NAME} Sedang 𝗢𝗙𝗙!**",
-    f"**Maaf ✘ 𝗞𝗶𝗻𝗴 {ALIVE_NAME} Sedang 𝗢𝗙𝗙\n Tunggu Sampai Online!**",
+    f"**paan? ✘ Paduka {ALIVE_NAME} Lagi 𝗢𝗙𝗙 sabar yah:)**",
+    f"**paan? ✘ paduka {ALIVE_NAME} Lagi 𝗢𝗙𝗙\n Sabar yahh:)**",
     f"**✘ 𝗞𝗶𝗻𝗴 {ALIVE_NAME} Sedang 𝗢𝗙𝗙\n Tunggulah Sampai Online**",
-    f"**Maaf ✘ 𝗞𝗶𝗻𝗴 {ALIVE_NAME} Sedang 𝗢𝗙𝗙!**",
+    f"**paan? ✘ 𝗞𝗶𝗻𝗴 {ALIVE_NAME} lagi 𝗢𝗙𝗙!**",
 ]
 
 
@@ -61,7 +61,7 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(f"**✘ {ALIVE_NAME} Telah 𝗢𝗙𝗙 **\
-        \n☞ **Alasan:** `{string}`")
+        \n☞ **Mungkin:** `{string}`")
     else:
         await afk_e.edit(f"**✘ {ALIVE_NAME} Telah 𝗢𝗙𝗙 **")
     if user.last_name:
