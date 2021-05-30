@@ -31,10 +31,23 @@ async def typewriter(typew):
     await typew.edit("`Wa'alaikumussalam...`")
 
 
+@register(outgoing=True, pattern='^.S(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`sayang,mau gak jadi pacar aku?...`")
+
+
+@register(outgoing=True, pattern='^.s(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`sayang,mau gak jadi pacar aku?...`")
+
 CMD_HELP.update({
-    "salam":
+    "salam x gombal":
     "⚡𝘾𝙈𝘿⚡`.P`\
 \nPenjelasan: Untuk Memberi salam ke semua orang.\
 \n\n⚡𝘾𝙈𝘿⚡`.L`\
-\nPenjelasan: Untuk Menjawab Salam ke semua orang."
+\nPenjelasan: Untuk Menjawab Salam ke semua orang.\
+    "⚡𝘾𝙈𝘿⚡`.S`\
+/npenjelasan: Untuk Baperin orang:v.\"
 })
