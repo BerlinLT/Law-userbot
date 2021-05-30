@@ -48,6 +48,6 @@ CMD_HELP.update({
 \nPenjelasan: Untuk Memberi salam ke semua orang.\
 \n\n⚡𝘾𝙈𝘿⚡`.L`\
 \nPenjelasan: Untuk Menjawab Salam ke semua orang.\
-\n\n⚡𝘾𝙈𝘿⚡`.S`
+\n\n⚡𝘾𝙈𝘿⚡`.S`\
 \nPenjelasan: Untuk Baperin orang.\"
 })
